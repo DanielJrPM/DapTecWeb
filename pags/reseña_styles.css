@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body{
+  background-color: #f0ecec;
+}
+nav {
+  position: relative;
+  width: auto;
+  height: 50px;
+  background: linear-gradient(207.8deg, #201E1C 5.69%, #4311f5 100%);
+  margin-bottom: 2px;
+}
+.enlaces-header a{
+  display: inline-block;
+  color: white;
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+.review img{
+  position: relative;
+  width: 80%;
+  left: 10px;
+  margin-top: 20px;
+}
+.review__conten {
+  position: relative;
+  width: 90%;
+  left: 10px;
+  margin-top: 20px;
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 3px;
+}
+.review__conten-title {
+  font-size: 2rem;
+}
+.review__conten p {
+  font-size: 1.4rem;
+}
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  background-color: rgb(18, 18, 94);
+}
+  .info {
+  width: 70%;
+  text-align: center;
+  font-size: 1rem;
+  color: aliceblue;
+  align-self: center ;
+  margin-top: 10px;
+}
+.info__service {
+  margin-top: 10px;
+}
+.contact {
+  font-size: 1rem;
+  align-self: center;
+  margin-top: 10px;
+}
+  
+.contact ul{
+  list-style: none;
+}
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+  
+
+  
