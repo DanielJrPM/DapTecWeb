@@ -1,0 +1,10 @@
+mixin notice(imagen,imgDescription,url,title) 
+  article.notices__article 
+    img.notices__article--img(src=""+imagen, alt=""+img-description)
+    .notices__article--title
+      a(href=""+ruta)=title 
+
+mixin Reviews(imagen,img_description,url,title)
+  article.reviews__article 
+    img(src=imagen, alt=img_description)
+    a(href=url)=title

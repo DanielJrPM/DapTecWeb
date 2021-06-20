@@ -1,0 +1,31 @@
+ .footer { 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background: $background-degradado;
+  &__info {
+    width: 70%;
+    text-align: center;
+    font-size: 1rem;
+    color: aliceblue;
+    align-self: center;
+    margin-top: 20px;
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  &__contact {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  &__contact a {
+    color: $color-claro;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+}
+

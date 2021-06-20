@@ -1,0 +1,18 @@
+include ./components/mixins.pug
+doctype html
+html(lang="en")
+  include ./components/head.pug
+  body
+    include ./components/header.pug  
+    main 
+      section.notices
+        +notice("../assets/img/geforce-rtx-30.jpg","imagen de targeta grafica RTX","#","LA SITUACION ACTUAL DE LAS TARGETAS DE VIDEO / TIPS PARA CONSEGUIR TARGETAS DE VIDEO")
+        +notice("../assets/img/E3-2021.jpg","imagen del e3 2021","#","Resumen de las noticias mas importantes del E3 2021")
+      section.notices-secundaries-slider
+        +notice("../assets/img/Windows11.jpg","imagen de windows 11","#","Se viene windows 11!!, O almenos todos los rumores apuntan a ello")
+        +notice("../assets/img/minecraft-1-17-parte-1.jpg","imagen de minecraft 1.17","#","La primera parte de la gran actualizacion de Minecraft 1.17")
+        +notice("../assets/img/stalker2.jpg","imagen de stalker 2","#","Se anuncia Stalker2 en el E3, la secuela de un shoter clasico")
+      section.reviews 
+        +Reviews("../assets/img/PC-XZEAL.jpg","imagen de mouse gamin XZEAL 950","#","El mejor mouse gamer economico / Mouse XZEAL XZ950") 
+        +Reviews("../assets/img/gt1_specs1.jpg","imagen de audifonos haylou gt1 plus","#","Los mejores audifonos Bluetooth economicos del mercado / Hylou gt1 plus") 
+    include ./components/footer.pug 
