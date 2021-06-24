@@ -52,8 +52,8 @@
   flex-wrap: wrap;
   align-items: center;
   width: 95%;
-  max-width: 300px;
-  margin-left: calc(50% - 150px);
+  max-width: 400px;
+  margin: auto;
   height: auto;
   margin-top: 10px;
   background-color: white;
@@ -73,5 +73,28 @@
     height: auto;
   }
 }
+.article-big {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin-left: 0;
+  height: auto;
+  margin-top: 10px;
+  background-color: white;
+  .article-big__img {
+    width: 110px;
+    justify-items: center;
+    img {
+      display: flex;
+      width: 100px;
 
+      align-content: center;
+    }
+  }
+  .article-big__content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 5px;
+  }
+}
 

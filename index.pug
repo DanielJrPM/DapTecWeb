@@ -1,9 +1,9 @@
-include ./components/mixins.pug
+include ./pug/components/mixins.pug
 doctype html
 html(lang="en")
-  include ./components/head.pug
+  include ./pug/components/head.pug
   body
-    include ./components/header.pug  
+    include ./pug/components/header.pug  
     main 
       section.notices
         +notice("../assets/img/geforce-rtx-30.jpg","imagen de targeta grafica RTX","#","LA SITUACION ACTUAL DE LAS TARGETAS DE VIDEO / TIPS PARA CONSEGUIR TARGETAS DE VIDEO")
@@ -15,4 +15,5 @@ html(lang="en")
       section.reviews 
         +Reviews("../assets/img/PC-XZEAL.jpg","imagen de mouse gamin XZEAL 950","#","El mejor mouse gamer economico / Mouse XZEAL XZ950") 
         +Reviews("../assets/img/gt1_specs1.jpg","imagen de audifonos haylou gt1 plus","#","Los mejores audifonos Bluetooth economicos del mercado / Hylou gt1 plus") 
-    include ./components/footer.pug 
+      +article-big("../assets/img/Windows11.jpg","imagen de windows 11","#","Se filtra windows 11!! Ya es posible instalarlo!!!","Justo un par de semanas despues de que se anunciara windows 11 se filtra un archivo iso el cual le permite a cualquier persona que lo posea instalar esta beta o incluso vercion alfa del sistema operativo pero no sin tener bien en cuenta las siguientes indicasiones")
+    include ./pug/components/footer.pug 

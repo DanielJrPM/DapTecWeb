@@ -1,6 +1,6 @@
 mixin notice(imagen,imgDescription,url,title) 
   article.notices__article 
-    img.notices__article--img(src=""+imagen, alt=""+img-description)
+    img.notices__article--img(src=""+imagen, alt=""+imgDescription)
     .notices__article--title
       a(href=""+ruta)=title 
 
@@ -8,3 +8,11 @@ mixin Reviews(imagen,img_description,url,title)
   article.reviews__article 
     img(src=imagen, alt=img_description)
     a(href=url)=title
+
+mixin article-big(imagen,img_description,url,title,paragraph)
+  article.article-big
+    .article-big__img  
+      img(src=imagen, alt=img_description)
+    .article-big__content
+      a(href=url)=title
+      p=paragraph
