@@ -75,26 +75,28 @@
 }
 .article-big {
   display: flex;
-  align-items: center;
-  width: 95%;
+  width: 97%;
   margin-left: 0;
   height: auto;
   margin-top: 10px;
+  align-items: center;
   background-color: white;
   .article-big__img {
-    width: 110px;
-    justify-items: center;
+    width: 40%;
     img {
-      display: flex;
-      width: 100px;
-
-      align-content: center;
+      width: 100%;
     }
   }
   .article-big__content {
-    display: flex;
-    flex-direction: column;
-    padding: 40px 5px;
+    padding: 15px 10px;
+    width: 60%;
+    a {
+      display: block;
+      font-size: 1.7rem;
+      margin-bottom: 5px;
+      text-decoration: none;
+      color: $color-oscuro;
+    }
   }
 }
 
